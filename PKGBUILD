@@ -7,8 +7,8 @@ url="https://tau.innatical.com/"
 install=tau-branding.install
 license=("GPL3")
 depends=()
-source=("os-release" "logos")
-sha256sums=("SKIP" "tau-logo.png" "tau-logo.svg" "tau-logo-text.png" "tau-logo-text.svg")
+source=("os-release" "tau-logo.png" "tau-logo.svg" "tau-logo-text.png" "tau-logo-text.svg")
+sha256sums=("SKIP" "SKIP" "SKIP" "SKIP" "SKIP")
 
 package() {
     mkdir -p "$pkgdir"/etc "$pkgdir"/usr/share/pixmaps
