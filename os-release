@@ -1,0 +1,10 @@
+NAME="Tau"
+PRETTY_NAME="Tau"
+ID=tau
+BUILD_ID=rolling
+ANSI_COLOR="1;34"
+HOME_URL="https://tau.innatical.com"
+DOCUMENTATION_URL="https://wiki.tau.innatical.com"
+SUPPORT_URL="https://github.com/tauLinux/meta/discussions"
+BUG_REPORT_URL="https://github.com/tauLinux/meta/issues"
+LOGO=tau-logo
