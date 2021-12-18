@@ -1,0 +1,9 @@
+post_install() {
+    mv /etc/os-release /etc/os-release.old
+    ln -s /etc/os-release.new /etc/os-release
+}
+
+post_remove() {
+    rm /etc/os-release
+    mv /etc/os-release.old /etc/os-release
+}

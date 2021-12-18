@@ -1,15 +1,16 @@
 pkgname=tau-branding
-pkgver=0.1.0
+pkgver=0.0.1
 pkgrel=1
 pkgdesc="Tau branding assets"
 arch=("x86_64")
 url="https://tau.innatical.com/"
+install=tau-branding.install
 license=("GPL3")
 depends=()
-source=("https://github.com/tauLinux/tau-branding.git")
+source=("os-release")
 sha256sums=("SKIP")
 
 package() {
     mkdir -p "$pkgdir"/etc
-    cp os-release "$pkgdir"/etc/os-release
+    cp "$srcdir"/os-release "$pkgdir"/etc/os-release.new
 }
