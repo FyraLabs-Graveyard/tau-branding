@@ -13,5 +13,5 @@ sha256sums=("SKIP" "SKIP" "SKIP" "SKIP" "SKIP")
 package() {
     mkdir -p "$pkgdir"/etc "$pkgdir"/usr/share/pixmaps
     cp "$srcdir"/os-release "$pkgdir"/etc/os-release.new
-    cp "$srcdir"/logos/* "$pkgdir"/usr/share/pixmaps
+    cp "$srcdir"/*.{png,svg} "$pkgdir"/usr/share/pixmaps
 }
